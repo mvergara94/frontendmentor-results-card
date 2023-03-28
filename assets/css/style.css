@@ -155,7 +155,6 @@ strong {
 }
 
 @media screen and (min-width: 1440px) {
- 
   .container {
     display: flex;
     height: 100vh;
@@ -167,12 +166,14 @@ strong {
     width: 16%;
     border-radius: 2em;
     box-shadow: 4px 4px 9px hsl(241, 100%, 89%, 0.7);
+    padding: 2em;
   }
 
   .details {
     width: 16%;
     border-radius: 2em;
     box-shadow: 4px 4px 9px hsl(241, 100%, 89%, 0.7);
-    margin-top: 0%;    
+    margin-top: 0%;
+    padding: 2em;
   }
 }
