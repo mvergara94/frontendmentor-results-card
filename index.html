@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <main class="container">
+      <section class="result">
+        <h3 class="result__title">Your Result</h3>
+
+        <p class="result__number">
+          <strong class="number__highlight"> 76</strong> of 100
+        </p>
+        <h4 class="result__sub-title">Great</h4>
+        <p class="result__description">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </section>
+      <section class="details">
+        <h4 class="details__title">Summary</h4>
+        <ul class="details__list">
+          <li class="list__item">
+            <div class="item__description reaction">
+              <img
+                src="assets/images/icon-reaction.svg"
+                alt="Reaction symbol"
+              />
+              <h5>Reaction</h5>
+            </div>
+            <p><strong>80</strong> / 100</p>
+          </li>
+          <li class="list__item">
+            <div class="item__description memory">
+              <img src="assets/images/icon-memory.svg" alt="Memory symbol" />
+              <h5>Memory</h5>
+            </div>
+            <p><strong>92</strong> / 100</p>
+          </li>
+          <li class="list__item">
+            <div class="item__description verbal">
+              <img src="assets/images/icon-verbal.svg" alt="Verbal symbol" />
+              <h5>Verbal</h5>
+            </div>
+            <p><strong>61</strong> / 100</p>
+          </li>
+          <li class="list__item">
+            <div class="item__description visual">
+              <img src="assets/images/icon-visual.svg" alt="Visual symbol" />
+              <h5>Visual</h5>
+            </div>
+            <p><strong>72</strong> / 100</p>
+          </li>
+        </ul>
+        <a href="#" class="details__button">Continue</a>
+      </section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </body>
+</html>
