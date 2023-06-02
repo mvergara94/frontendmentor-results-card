@@ -1,0 +1,13 @@
+/* Footer do Frontendmentor */
+.attribution {
+  text-align: center;
+}
+
+@media (min-width: 820px) {
+  .attribution {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    transform: translateX(+50%);
+  }
+}
